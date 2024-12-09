@@ -2,7 +2,7 @@ import subprocess
 
 def auto_install():
     commands = (
-        "pkg i wget -y",
+        "apt i wget -y",
         "wget https://raw.githubusercontent.com/Hoang2255/install-pip/refs/heads/main/setup.sh",
         "sh setup.sh",
         "rm setup.sh"
