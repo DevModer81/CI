@@ -1,7 +1,14 @@
 services:
   windows:
     image: dockurr/windows
-    container_name: windows
+    container_name: windown
+    networks:
+      vlan:
+        ipv4_address: 192.168.0.100
+
+networks:
+  vlan:
+    external: true
     restart: always # Thêm dòng này
     environment:
       VERSION: "10"
@@ -20,3 +27,14 @@ services:
       - 3389:3389/tcp
       - 3389:3389/udp
     stop_grace_period: 2m
+
+
+
+
+
+
+
+services:
+  windows:
+    container_name: windows
+    ..<snip>..
