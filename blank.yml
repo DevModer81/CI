@@ -27,14 +27,3 @@ networks:
       - 3389:3389/tcp
       - 3389:3389/udp
     stop_grace_period: 2m
-
-
-
-
-
-
-
-services:
-  windows:
-    container_name: windows
-    ..<snip>..
