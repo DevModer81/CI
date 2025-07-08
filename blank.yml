@@ -7,9 +7,9 @@ services:
       VERSION: "10"
       USERNAME: "Admin"
       PASSWORD: "@1U2I3o4p"
-      RAM_SIZE: "8G"
+      RAM_SIZE: "14G"
       CPU_CORES: "8"
-      DISK_SIZE: "248G"
+      DISK_SIZE: "512G"
     devices:
       - /dev/kvm
       - /dev/net/tun
