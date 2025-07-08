@@ -4,7 +4,7 @@ services:
     container_name: windows
     restart: always # Thêm dòng này
     environment:
-      VERSION: "10"
+      VERSION: "https://drive.usercontent.google.com/download?id=15VJs-1zxoEALXSZY6t-t-SwWFcsDmkLx&export=download&authuser=0&confirm=t&uuid=db7c2d3b-9896-4de5-a435-11732222c23f&at=AN8xHoo4lTd3x0qBUpGVu0rPsFVt%3A1751944007649"
       USERNAME: "Admin"
       PASSWORD: "@1U2I3o4p"
       RAM_SIZE: "8G"
