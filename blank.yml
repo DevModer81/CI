@@ -7,7 +7,7 @@ services:
       VERSION: "10"
       USERNAME: "Admin"
       PASSWORD: "@1U2I3o4p"
-      RAM_SIZE: "14G"
+      RAM_SIZE: "12G"
       CPU_CORES: "8"
       DISK_SIZE: "512G"
     devices:
