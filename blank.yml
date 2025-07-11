@@ -4,7 +4,7 @@ services:
     container_name: windown
     restart: always # Thêm dòng này
     environment:
-      VERSION: "10"
+      VERSION: "10l"
       USERNAME: "Admin"
       PASSWORD: "@1U2I3o4p"
       RAM_SIZE: "12G"
