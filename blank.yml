@@ -5,11 +5,11 @@ services:
     restart: always # Thêm dòng này
     environment:
       VERSION: "10"
-      USERNAME: "Duy"
+      USERNAME: "Admin"
       PASSWORD: "@1U2I3o4p"
-      RAM_SIZE: "10G"
+      RAM_SIZE: "8G"
       CPU_CORES: "8"
-      DISK_SIZE: "512G"
+      DISK_SIZE: "248G"
     devices:
       - /dev/kvm
       - /dev/net/tun
